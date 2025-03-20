@@ -1,5 +1,6 @@
 # seqnmf_cuda
 GPU acceleration of SeqNMF([paper](https://elifesciences.org/articles/38471), [original code](https://github.com/FeeLab/seqNMF)) using CuPy.
+Important credit also goes to the [Python version](https://github.com/ContextLab/seqnmf) of this algorithm by [ContextLab](https://github.com/ContextLab)
 
 Parallelism mainly comes from unrolling the computation along the `L` dimension of the procedure.
 
